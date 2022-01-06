@@ -14,7 +14,7 @@ form.addEventListener('submit',(e)=>{
     const city=inputValue.value;
     const endInfo ={params:{key:'a87c30fe92b44a66831101943212812', q:city, aqi:'yes'}}
 
-    axios.get('http://api.weatherapi.com/v1/current.json',endInfo)
+    axios.get('https://api.weatherapi.com/v1/current.json',endInfo)
     .then((result)=>{
 
 

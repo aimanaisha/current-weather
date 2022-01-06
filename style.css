@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=Alef&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Tamma+2&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+h1{
+    font-size: 4rem;
+    height:150px;
+    padding: 30px;
+    color: rgba(53, 23, 70, 0.582);
+    font-family: 'Baloo Tamma 2', cursive;
+}
+body{
+    text-align: center;
+    font-size: 1.3rem;
+    background: #e0e5ec;
+}
+
+ul{
+    list-style-type:none
+}
+form{
+    font-size: 1.5rem;
+    line-height: 70px;
+    color: rgb(41, 48, 99);
+    font-family: 'Baloo Tamma 2', cursive;
+    margin-bottom: 45px;
+}
+
+input[type="text"]{
+    font-family: 'Alef', sans-serif;
+    color: rgb(70, 71, 78);
+    text-align: center;
+    height: 45px;
+    width: 250px;
+    margin: 10px;
+    font-size: 1.1rem;
+    background: none;
+    border-radius: 30px;
+    box-shadow:
+   -7px -7px 20px 0px #fff9,
+   -4px -4px 5px 0px #fff9,
+   7px 7px 20px 0px #0002,
+   4px 4px 5px 0px #0001,
+   inset 0px 0px 0px 0px #fff9,
+   inset 0px 0px 0px 0px #0001,
+   inset 0px 0px 0px 0px #fff9,        inset 0px 0px 0px 0px #0001;
+ transition:box-shadow 0.6s cubic-bezier(.79,.21,.06,.81);
+    outline: none;
+    border: none;
+}
+input[type="text"].visited{
+    outline: none;
+    background: none;
+}
+button{
+    font-family: 'Alef', sans-serif;
+    color: rgb(33, 82, 70);
+    width: 130px;
+    height: 40px;
+    font-size: 1.1rem;
+    margin: 20px;
+    background: none;
+    border-radius: 30px;
+    box-shadow:
+   -7px -7px 20px 0px #fff9,
+   -4px -4px 5px 0px #fff9,
+   7px 7px 20px 0px #0002,
+   4px 4px 5px 0px #0001,
+   inset 0px 0px 0px 0px #fff9,
+   inset 0px 0px 0px 0px #0001,
+   inset 0px 0px 0px 0px #fff9,        inset 0px 0px 0px 0px #0001;
+ transition:box-shadow 0.6s cubic-bezier(.79,.21,.06,.81);
+    outline: none;
+    border: none;
+}
+img{
+    height: 85px;
+    width: 85px;
+    margin: 20px;
+    padding: 10px;
+    border-radius: 50%;
+    box-shadow:
+   -7px -7px 20px 0px #fff9,
+   -4px -4px 5px 0px #fff9,
+   7px 7px 20px 0px #0002,
+   4px 4px 5px 0px #0001,
+   inset 0px 0px 0px 0px #fff9,
+   inset 0px 0px 0px 0px #0001,
+   inset 0px 0px 0px 0px #fff9,        inset 0px 0px 0px 0px #0001;
+ transition:box-shadow 0.6s cubic-bezier(.79,.21,.06,.81);
+}
+h2{
+    margin: 20px;
+    font-family: 'Baloo Tamma 2', cursive;
+    color: rgba(53, 23, 70, 0.582);
+}
+
+.result-div{
+    border-radius: 30px;
+    padding-top: 30px;
+    width: 600px;
+    margin: auto;
+    box-shadow:
+   -7px -7px 20px 0px #fff9,
+   -4px -4px 5px 0px #fff9,
+   7px 7px 20px 0px #0002,
+   4px 4px 5px 0px #0001,
+   inset 0px 0px 0px 0px #fff9,
+   inset 0px 0px 0px 0px #0001,
+   inset 0px 0px 0px 0px #fff9,        inset 0px 0px 0px 0px #0001;
+ transition:box-shadow 0.6s cubic-bezier(.79,.21,.06,.81);
+}
+
+.current-list{
+    line-height: 35px;
+    margin: 20px;
+    margin-top: 0;
+    padding: 15px;
+    font-family: 'Alef', sans-serif;
+    color: rgb(33, 82, 70);
+
+}
+.airquality-list{
+    line-height: 35px;
+    margin: 20px;
+    padding: 15px;
+    font-family: 'Alef', sans-serif;
+    color: rgb(33, 82, 70);
+}
+.location-list{
+    line-height: 35px;
+    margin: 20px;
+    padding: 15px;
+    font-family: 'Alef', sans-serif;
+    color: rgb(33, 82, 70);
+}
+
+@media(max-width:840px){
+    h1{
+        margin-top: 30px;
+        font-size: 3rem;
+        height: 100px;
+    }
+    form{
+        margin-top: 60px;
+    }
+}
+@media (max-width:390px){
+    h1{
+        font-size: 3.8rem;
+        letter-spacing: 2px;
+        line-height: 75px;
+        margin-bottom: 210px;
+        margin-top: 40px;
+
+    }
+    .result-div{
+        width: 300px;
+        font-size: 18px;
+    }
+    input[type="text"]{
+        width: 280px;
+        margin-bottom: 20px;
+    }
+    button{
+        width: 140px;
+    }
+}
+            

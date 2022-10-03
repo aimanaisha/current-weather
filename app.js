@@ -4,6 +4,7 @@ const btn=document.querySelector('#button');
 const aqi=document.querySelector('#aqi');
 const inputValue=document.querySelector('#cityName');
 const section=document.querySelector('section');
+const loader=document.querySelector('#loading');
 
 
 form.addEventListener('submit',(e)=>{
@@ -14,9 +15,12 @@ form.addEventListener('submit',(e)=>{
     const city=inputValue.value;
     const endInfo ={params:{key:'a87c30fe92b44a66831101943212812', q:city, aqi:'yes'}}
 
+    loader.style.opacity='1';
+    loader.style.height='auto';
     axios.get('https://api.weatherapi.com/v1/current.json',endInfo)
     .then((result)=>{
-
+        loader.style.opacity='0';
+        loader.style.height = 0;
 
     const resultDiv=document.createElement('div');
     resultDiv.classList.add('result-div');

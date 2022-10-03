@@ -94,6 +94,21 @@ img{
    inset 0px 0px 0px 0px #fff9,        inset 0px 0px 0px 0px #0001;
  transition:box-shadow 0.6s cubic-bezier(.79,.21,.06,.81);
 }
+#loading {
+    font-family: 'Baloo Tamma 2', cursive;
+    opacity: 0;
+}
+
+#loading img {
+    height: 200px;
+    width: auto;
+    margin: 0px;
+    padding: 0px;
+    border-radius: 0%;
+    box-shadow: none;
+    transition:opacity 0.6s cubic-bezier(.79,.21,.06,.81);
+}
+
 h2{
     margin: 20px;
     font-family: 'Baloo Tamma 2', cursive;

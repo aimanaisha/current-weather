@@ -25,7 +25,7 @@ form.addEventListener('submit',(e)=>{
     listLocation.classList.add('location-list');
 
     const conditionImg= document.createElement('img')
-    conditionImg.src=result.data.current.condition.icon;
+    conditionImg.src="https:" + result.data.current.condition.icon;
     resultDiv.appendChild(conditionImg);
 
     const headlocation=document.createElement('h2');
